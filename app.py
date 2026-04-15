@@ -227,6 +227,11 @@ if st.session_state.nano_state == "listening":
     
     if user_input and len(user_input.strip()) > 0:
         print(f"[APP] Got input: {user_input}")
+
+        st.session_state.messages.append({
+            "role": "user",
+            "content": user_input.strip()
+        })
         
         # Update state - PROCESSING
         st.session_state.nano_state = "speaking"
