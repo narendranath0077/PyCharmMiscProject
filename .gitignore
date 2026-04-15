@@ -1,0 +1,111 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.dmypy.json
+dmypy.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+api_keys.txt
+credentials.json
+
+# Build, packaging, and distribution output
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg
+*.egg-info/
+develop-eggs/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# Test and coverage output
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+*.cover
+test_results/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.bak
+tmp/
+temp/
+tempfiles/
+backup/
+*.backup
+
+# Databases and local storage
+*.db
+*.sqlite
+*.sqlite3
+local_data/
+cache/
+
+# Streamlit
+.streamlit/
+!.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Voice assistant audio artifacts
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# Model and LLM artifacts
+ollama/
+models/
+*.gguf
+*.bin
+
+# Project-specific scratch files
+app_old.py
+app_old_broken.py
